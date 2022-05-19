@@ -1,0 +1,61 @@
+.App {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  line-height: 60px;
+  height: 60px;
+  background: #3131d6;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.image {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #3131d6;
+  color: #f2f2f2;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: 200ms ease;
+}
+
+.button--full-width {
+  width: 100%;
+  border-radius: 0;
+}
+
+.button:hover,
+.button:active {
+  opacity: 50%;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: #1515158c;
+}
+
+.modal {
+  margin: 1rem;
+  max-width: 400px;
+  background: #f2f2f2;
+  border-radius: 1rem;
+  color: #121212;
+  overflow: hidden;
+}
+
+.modal p {
+  padding: 1rem;
+}
